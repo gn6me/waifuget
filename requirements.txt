@@ -1,0 +1,2 @@
+click>=7.1.2
+term-image>=0.7.2
