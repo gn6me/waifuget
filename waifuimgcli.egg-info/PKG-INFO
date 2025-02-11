@@ -1,0 +1,23 @@
+Metadata-Version: 2.2
+Name: waifuimgcli
+Version: 0.1.0
+Summary: CLI tool to get and display anime art in the terminal
+Home-page: 
+Author: shiro-ko
+Author-email: thegn6me@gmail.com
+License: GNU GPLv3
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click>=7.1.2
+Requires-Dist: term-image>=0.7.2
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description-content-type
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

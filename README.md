@@ -6,6 +6,9 @@ This tool fetches data from the danbooru API to display a random image in a comp
 ### Requirements
 **waifu** uses *Term-Image* to draw the image on the terminal. Supported terminal emulators can be found from the Term-Image documentation here: https://term-image.readthedocs.io/en/stable/start/installation.html
 
+### Installation
+Coming soon...
+
 ### Commands
 ```
 waifu
