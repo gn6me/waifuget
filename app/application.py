@@ -8,7 +8,7 @@ def jprint(obj):
 
 #print(response)
 def imageLoad(tag,rating):
-    url = f"https://danbooru.donmai.us/posts/random.json?tags={tag}+1girl+rating:{rating}"
+    url = f"https://danbooru.donmai.us/posts/random.json?tags=-animated+{tag}+solo+rating:{rating}"
     response = requests.get(url)
     jprint(response.json())
     imageData = json.loads(jprint(response.json()))

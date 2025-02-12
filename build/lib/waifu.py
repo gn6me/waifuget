@@ -7,6 +7,6 @@ from app.application import imageLoad
 def cli(tag,rating):
     imageGet = imageLoad(tag,rating)
     imageGet.draw()
-    while click.confirm('Do you want to continue?'):
+    while click.confirm('Show another one?', default=True):
         imageGet = imageLoad(tag,rating)
         imageGet.draw()
