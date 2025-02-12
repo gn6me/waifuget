@@ -1,5 +1,7 @@
 # A simple anime image CLI tool
-![ezgif-31f6c689f6c9d7](https://github.com/user-attachments/assets/7f5dae5c-1451-43a3-972b-db54f598a665)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/7f5dae5c-1451-43a3-972b-db54f598a665" />
+</p>
 
 ## waifu-v1.0
 This tool fetches data from the danbooru API to display a random image in a compatible terminal. By default it will search images tagged with `cat_girl` under the `general` rating.
