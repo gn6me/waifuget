@@ -8,10 +8,13 @@ def jprint(obj):
 
 #print(response)
 def imageLoad(tag,rating):
-    url = f"https://danbooru.donmai.us/posts/random.json?tags=-animated+{tag}+solo+rating:{rating}"
-    response = requests.get(url)
-    jprint(response.json())
-    imageData = json.loads(jprint(response.json()))
-    imageURL = imageData['file_url']
-    image = from_url(imageURL)
-    return image
+    url = f"https://danbooru.donmai.us/posts/random.json?tags={tag}+solo+rating:{rating}"
+    try:
+        response = requests.get(url)
+        jprint(response.json())
+        imageData = json.loads(jprint(response.json()))
+        imageURL = imageData['file_url']
+        image = from_url(imageURL)
+        return image
+    except: # run again
+        return
