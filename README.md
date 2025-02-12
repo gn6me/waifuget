@@ -1,4 +1,5 @@
 # A simple anime image CLI tool
+![ezgif-31f6c689f6c9d7](https://github.com/user-attachments/assets/7f5dae5c-1451-43a3-972b-db54f598a665)
 
 ## waifu-v1.0
 This tool fetches data from the danbooru API to display a random image in a compatible terminal. By default it will search images tagged with `cat_girl` under the `general` rating.
@@ -7,6 +8,7 @@ This tool fetches data from the danbooru API to display a random image in a comp
 **Term-Image** is used to draw the image on the terminal. Supported terminal emulators can be found from the Term-Image documentation here: https://term-image.readthedocs.io/en/stable/start/installation.html
 
 ### Installation
+
 I recommend installing the package via **pipx**. If you do not have pipx installed on your system, instructions for Windows, MacOS, and Linux can be found here: https://github.com/pypa/pipx
 
 #### 1. Clone the repo
