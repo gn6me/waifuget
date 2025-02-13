@@ -9,10 +9,11 @@ def cli(tag,rating):
         imageGet = imageLoad(tag,rating)
         imageGet.draw()
         print("Press ENTER to keep going or type 'n' to stop")
+
+        # Keep prompting until user quits
         while click.confirm('Show another one?', default=True, show_default=False):
             imageGet = imageLoad(tag,rating)
             imageGet.draw()
             print("Press ENTER to keep going or type 'n' to stop")
-
     except:
         print("Image could not be displayed >_< Please try again!")
